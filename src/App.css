@@ -1,38 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600;700;900&display=swap');
+
+:root {
+    --primary-color: #FFCD00;
+    --black-color: #121212;
+    --black-light-color: #39393B;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fira Sans", "Arial", sans-serif, serif;
+}
+
+body {
+    background: #F5F5F5;
+
+}
+
 .App {
-  text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 128px;
+
+    height: auto;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App__link {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 2%;
+    right: 1%;
+
+    background: #FFCD00;
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App__sort-wrapper {
+    margin: 28px 0px 32px 0px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.App__card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+
+
+.modal-on {
+    display: block;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.modal-off {
+    display: none;
+}
+
+.modal-btn {
+    width: 25px;
+    height: 25px;
+
+    position: fixed;
+    top: 3%;
+    left: 3%;
+
+    border: none;
+    background-color: white;
+}
+
+.modal__content {
+    position: fixed;
+    top: 10%;
+    margin: 0 auto;
+    left: 50%;
+    transform: translateX(-45%);
+    width: 30%;
+    height: auto;
+    background-color: white;
+}
+
+.modal__content-form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 70px;
+}
+
+label {
+    margin: 5px 0px;
+}
+
+.form__error{
+    font-size: 12px;
+    color: red;
+}
+input,
+select {
+    padding: 10px;
+}
+
+.modal__form-send {
+    align-self: center;
+    margin-top: 30px;
+    padding: 10px;
+    max-width: 250px;
+}
+
+
+
+.card {
+    position: relative;
+    padding: 20px;
+    width: 276px;
+    height: 186px;
+
+    background: #FFFFFF;
+    border-radius: 12px;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.card__info,
+.card__price,
+.card__price-box {
+    display: flex;
+    align-items: start;
+}
+
+.card__info {
+    padding-bottom: 10px;
+    justify-content: space-between;
+    border-bottom: 1px solid #909090;
+    ;
+}
+
+.card__info-img {
+    max-width: 35px;
+    max-height: 35px;
+}
+
+.card__heading-title {
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--black-color);
+}
+
+.card__heading-subtitle {
+    margin-top: 2px;
+
+    max-width: 190px;
+
+    font-size: 14px;
+    color: var(--black-light-color);
+}
+
+.card__price {
+    position: relative;
+    margin-top: 16px;
+    align-items: center;
+}
+
+.card__price-box {
+    align-items: center;
+}
+
+.card__price-date {
+    font-size: 12px;
+    color: #909090;
+}
+
+.card__price-btn {
+    position: absolute;
+    right: 0;
+
+    padding: 5px 16px 6px;
+
+    border: none;
+    background: #EEEEEE;
+    border-radius: 8px;
+
+    transition: all 0.2s ease;
+}
+
+.card__price-btn:hover {
+    background: var(--primary-color);
+}
+
+
+
+.sort {
+    display: flex;
+}
+
+.sort__select {
+    margin: 0px 8px;
+
+    padding: 10px 20px;
+
+    border: none;
+    background: #FFFFFF;
+    border-radius: 20px;
+
+    font-weight: 700;
+    font-size: 14px;
+    color: #909090;
+
+    transition: all 0.3s ease-in;
+}
+
+.sort__select:hover {
+    background: #FFCD00;
+    color: #121212;
+}
+
+.sort__select-active {
+    margin: 0px 8px;
+
+    padding: 10px 20px;
+
+    border: none;
+    background: #FFCD00;
+    color: #121212;
+    border-radius: 20px;
+
+    font-weight: 700;
+    font-size: 14px;
+
+    transition: all 0.3s ease-in;
 }

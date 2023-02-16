@@ -1,0 +1,199 @@
+{
+  "categories": [
+    {
+      "id": 0,
+      "title": "Все"
+    },
+    {
+      "id": 1,
+      "title": "Для интернета"
+    },
+    {
+      "id": 2,
+      "title": "Для звонков"
+    },
+    {
+      "id": 3,
+      "title": "Для развлечений"
+    },
+    {
+      "id": 4,
+      "title": "Подписки"
+    },
+    {
+      "id": 5,
+      "title": "Прочие"
+    }
+  ],
+  "card": [
+    {
+      "title": "YouTube на расслабоне",
+      "subtitle": "смотри любимое видео без границ",
+      "price": 100,
+      "date": "4 нед",
+      "category": [
+        0,
+        3
+      ],
+      "image": "/images/youTube.png",
+      "id": 1
+    },
+    {
+      "title": "Кринжовый TikTok",
+      "subtitle": "50 Гб на TikTok ~ 300 часов просмотров",
+      "price": 60,
+      "date": "4 нед",
+      "category": [
+        0,
+        3,
+        2
+      ],
+      "image": "/images/tiktok.png",
+      "id": 2
+    },
+    {
+      "title": "IVI в тарифе",
+      "subtitle": "более 100 000 фильмов и сериалов",
+      "price": 200,
+      "date": "30 дней",
+      "category": [
+        0,
+        4
+      ],
+      "image": "/images/ivi.png",
+      "id": 3
+    },
+    {
+      "title": "20 Гб интернета",
+      "subtitle": "Закончился интернет? Подключите выгодный",
+      "price": 240,
+      "date": "4 нед",
+      "category": [
+        0,
+        1
+      ],
+      "image": "/images/wifi.png",
+      "id": 4
+    },
+    {
+      "title": "Эмне дей аласын?",
+      "subtitle": "смотри любимое видео без границ",
+      "price": 100,
+      "date": "4 нед",
+      "category": [
+        0,
+        3
+      ],
+      "image": "/images/youTube.png",
+      "id": 5
+    },
+    {
+      "title": "Заебался на работе",
+      "subtitle": "Посмотри сериал а продолжение на оранжевом ютубе",
+      "price": 200,
+      "date": "30 дней",
+      "category": [
+        0,
+        4
+      ],
+      "image": "/images/ivi.png",
+      "id": 6
+    },
+    {
+      "title": "Пакет TikTok",
+      "subtitle": "50 Гб на TikTok ~ 300 часов просмотров",
+      "price": 60,
+      "date": "4 нед",
+      "category": [
+        0,
+        3
+      ],
+      "image": "/images/tiktok.png",
+      "id": 7
+    },
+    {
+      "title": "Тариф Хароош",
+      "subtitle": "Пизданули твоего дуга? Пиздание его в инет",
+      "price": 240,
+      "date": "4 нед",
+      "category": [
+        0,
+        1
+      ],
+      "image": "/images/wifi.png",
+      "id": 8
+    },
+    {
+      "title": "Пакет TikTok",
+      "subtitle": "50 Гб на TikTok ~ 300 часов просмотров",
+      "category": [
+        0,
+        3
+      ],
+      "price": 60,
+      "date": "4 нед",
+      "image": "/images/tiktok.png",
+      "id": 9
+    },
+    {
+      "title": "20 Гб интернета",
+      "subtitle": "Закончился интернет? Подключите выгодный",
+      "price": 240,
+      "date": "4 нед",
+      "category": [
+        0,
+        1
+      ],
+      "image": "/images/wifi.png",
+      "id": 10
+    },
+    {
+      "title": "Общения ~ печенье",
+      "subtitle": "Скучно? подключи тариф Общения ~ печенье",
+      "price": 240,
+      "date": "4 нед",
+      "category": [
+        0,
+        2
+      ],
+      "image": "/images/call.png",
+      "id": 11
+    },
+    {
+      "title": "Суета",
+      "subtitle": "Суету навети охота? Позвони и друзьям",
+      "price": 350,
+      "date": "4 нед",
+      "category": [
+        0,
+        2
+      ],
+      "image": "/images/call.png",
+      "id": 12
+    },
+    {
+      "title": "Понт",
+      "subtitle": "Возникли трудности в жизни, позвони братану",
+      "price": 280,
+      "date": "4 нед",
+      "category": [
+        0,
+        2
+      ],
+      "image": "/images/call.png",
+      "id": 13
+    },
+    {
+      "title": "У Аппарата",
+      "subtitle": "Оставайся на связи братан, братишки позвонят в любой момент",
+      "price": 280,
+      "date": "4 нед",
+      "category": [
+        0,
+        2
+      ],
+      "image": "/images/call.png",
+      "id": 14
+    }
+  ]
+}
