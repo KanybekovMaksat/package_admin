@@ -26,9 +26,8 @@ const Home = () => {
   
   return (
     <div className='App'>
-      <h1 className='App__title'>Выгодные услуги от Beeline</h1>
+      <h1 className='App__title'>Выгодные услуги </h1>
       <div className='App__sort-wrapper'>
-        {/* conditional for loading and empty data */}
         {category.map(item => {
           return <Sort {...item} key={item.id} />
         })}
